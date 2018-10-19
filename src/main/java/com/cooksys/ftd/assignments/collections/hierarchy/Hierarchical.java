@@ -11,7 +11,12 @@ public interface Hierarchical<Element extends Hierarchical<Element, Parent>, Par
      * @return true if this element has a parent, or false otherwise
      */
     boolean hasParent();
-
+    if (xyz) {
+    	return true;
+    }else {
+    	return false;
+    }
+}
     /**
      * @return the parent of this element, or null if this represents the top of a hierarchy
      */

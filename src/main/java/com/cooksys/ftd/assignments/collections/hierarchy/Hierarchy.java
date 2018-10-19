@@ -35,7 +35,12 @@ public interface Hierarchy<Element extends Hierarchical<Element, Parent>, Parent
      * @return true if the element has been added to the hierarchy, false otherwise
      */
     boolean has(Element element);
-
+    if (xyz) {
+    	return true;
+    }else {
+    	return false;
+    }
+}
     /**
      * @return all elements in the hierarchy,
      * or an empty set if no elements have been added to the hierarchy
